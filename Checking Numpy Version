@@ -1,0 +1,4 @@
+#importing Numpy as np
+import numpy as np
+
+print(np.__version__) ##__version__ is python attribute
