@@ -1,0 +1,10 @@
+# Coverting tuple into ndarray 
+global arr #assining arr as a gloobal variable
+
+arr=(1,2,3,4,5)
+
+import numpy as np
+
+np_arr=np.array((arr))
+print(np_arr)
+print(type(np_arr))
